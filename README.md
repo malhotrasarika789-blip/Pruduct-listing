@@ -1,16 +1,62 @@
-# React + Vite
+#  Product Listing UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a **React + Vite** based Product Listing interface that fetches data from a public API and displays products in a clean, responsive grid layout.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+##  Live Demo
+https://product-ui-swart.vercel.app
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+##  Features
 
-## Expanding the ESLint configuration
+- Fetch products from FreeAPI
+- Responsive grid layout
+- Product image, title, category, price display
+- Clean UI with hover effects
+- Fallback handling for missing data
+- Fully responsive design
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+##  API Used
+
+https://api.freeapi.app/api/v1/public/randomproducts
+
+---
+
+##  Tech Stack
+
+- React (Vite)
+- JavaScript (ES6+)
+- CSS3
+- FreeAPI
+
+---
+
+##  Project Setup
+
+### 1. Clone the repository
+git clone https://github.com/malhotrasarika789-blip/Pruduct-listing
+
+## 2. Install dependencies
+npm install
+
+## 3. Run the project
+npm run dev
+
+## UI Preview
+Product cards grid layout
+Images with hover effect
+Clean ecommerce-style UI
+
+## Learning Outcome
+API integration in React
+State management using useState & useEffect
+Responsive UI design
+Handling real-world API data structure
+
+## Author
+
+Sarika Malhotra
