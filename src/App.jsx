@@ -14,7 +14,7 @@ export default function App() {
 
         console.log("FULL API RESPONSE:", data);
 
-        // ✅ SAFE EXTRACTION (handles all possible structures)
+        
         const items =
           data?.data?.data ||
           data?.data ||
@@ -54,7 +54,6 @@ export default function App() {
         }}
       >
         {products.map((item, index) => {
-          // 🔥 SAFE IMAGE HANDLING (MAIN FIX)
           const image =
             item?.image ||
             item?.images?.[0] ||
